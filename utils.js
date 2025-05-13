@@ -107,4 +107,73 @@ function yellow_long_rect8_H() {
   return rect;
 }
 
+function rect_1(){
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("x", 130);
+  rect.setAttribute("y", 70);
+  rect.setAttribute("width", 65);
+  rect.setAttribute("height", 160);
+  rect.setAttribute("fill", makeRGB("yellow"));
+  return rect;
+
+}
+
+function rect_2(){
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("x", 35);
+  rect.setAttribute("y", 140);
+  rect.setAttribute("width", 60);
+  rect.setAttribute("height", 100);
+  rect.setAttribute("fill", makeRGB("yellow"));
+  return rect;
+
+}
+
+
+function rect_blue_left(){
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("x", 35);
+  rect.setAttribute("y", 180);
+  rect.setAttribute("width", 60);
+  rect.setAttribute("height", 50);
+  rect.setAttribute("fill", makeRGB("blue"));
+  return rect;
+
+}
+
+
+function rect_yellow_mid(){
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("x", 52);
+  rect.setAttribute("y", 192);
+  rect.setAttribute("width", 25);
+  rect.setAttribute("height", 25);
+  rect.setAttribute("fill", makeRGB("yellow"));
+  return rect;
+
+}
+
+function rect_grey_left(){
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("x", 130);
+  rect.setAttribute("y", 180);
+  rect.setAttribute("width", 65);
+  rect.setAttribute("height", 30);
+  rect.setAttribute("fill", makeRGB("grey"));
+  return rect;
+
+}
+
+function rect_grey_up(){
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("x", 130);
+  rect.setAttribute("y", 140);
+  rect.setAttribute("width", 65);
+  rect.setAttribute("height", 20);
+  rect.setAttribute("fill", makeRGB("grey"));
+  return rect;
+
+}
+
+
 

@@ -16,6 +16,11 @@ svg.appendChild(yellow_long_rect6_H());  // hor_4
 svg.appendChild(yellow_long_rect8_H());  // hor_6
 svg.appendChild(yellow_long_rect9_V());  // ver_3
 svg.appendChild(yellow_long_rect10_V()); // ver_4
-
+svg.appendChild(rect_1());
+svg.appendChild(rect_2());
+svg.appendChild(rect_blue_left());
+svg.appendChild(rect_yellow_mid());
+svg.appendChild(rect_grey_left());
+svg.appendChild(rect_grey_up());
 
 
