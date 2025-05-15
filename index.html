@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SVG Shape Generator</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Mondrian (p5.js)</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
   <style>
-    body { text-align: center; font-family: Arial, sans-serif; }
-    svg { border: 2px solid black; margin-top: 20px; background-color: white; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+    canvas {
+      display: block;
+      margin: 20px auto;
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      border: 2px solid black;
+      background-color: white;
+    }
+    h1, h3 {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <h1>SVG Shape Generator</h1>
-  <h3>Place the rectangle in the correct position</h3>
-  <svg id="canvas" width="400" height="400"></svg>
+  <h3>Responsive Mondrian-style Layout</h3>
 
-  <script src="utils.js"></script>
-  <script src="mondrian_rectangles.js"></script>
+  <script src="sketch.js"></script>
 </body>
 </html>
