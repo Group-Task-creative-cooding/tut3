@@ -1,10 +1,10 @@
 svg {
-  width: 100%;              /* SVG 根据父容器宽度等比缩放 */
-  height: auto;             /* 高度自动按比例调整 */
+  width: 100%;             
+  height: auto;
   max-width: 600px;
-  aspect-ratio: 1 / 1;         /* 限制最大宽度，防止太大 */
-  border: 2px solid black;  /* 外框视觉辅助 */
-  background-color: white;  /* 背景白色 */
-  display: block;           /* 去除默认行内间隙 */
-  margin: 20px auto;        /* 垂直间距并居中 */
+  aspect-ratio: 1 / 1;
+  border: 2px solid black;
+  background-color: white;
+  display: block;
+  margin: 20px auto;
 }
